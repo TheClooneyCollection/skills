@@ -9,6 +9,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `agent-pool` | Keep a pool of sub agents busy under one coordinator. |
 | `avp-mvd-alvr-stutter-resolver` | Audit and fix Vision Pro MVD and ALVR stutter: AWDL channel hopping, router, wired path, subnets. |
 | `behavior-tests` | Tests as the user's flow, dependencies injected as plain functions. |
+| `illustrate-post` | Illustrate a post or doc with image variants from several models, picked from one gallery. |
 | `logo` | Design a project logo with an image model and add it to the README. |
 | `new-project-setup` | Set up a new repo with Git, commit, docs and versioning conventions. |
 | `polish-readme` | Polish a README's first screen and intro. |
@@ -16,7 +17,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `tiny-slice` | Focused pairing, one tiny slice at a time. |
 | `wrap-up` | Before clearing a session, report what to save and what is unfinished. |
 
-`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), `logo` generates images with Codex, and `release` publishes with the GitHub CLI (`gh`). The rest have no dependencies.
+`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), `logo` and `illustrate-post` generate images with Codex, and `release` publishes with the GitHub CLI (`gh`). The rest have no dependencies.
 
 ## Why
 
@@ -27,6 +28,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `agent-pool`: I had a pile of work that could run in parallel and wanted 5 to 10 agents on it at once, without them stepping on each other's toes. One coordinator hands out tasks from a queue and merges results, and each member owns its own files.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
+- `illustrate-post`: I wanted to see the best work from both Claude and an image model before picking a post's images. This has Claude draw the precise diagrams while an image model tries a few consistent styles on every image, all on one page, so I pick per image and mix freely.
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.
 - `polish-readme`: A README's first screen decides whether anyone reads on. This gives it one line per feature, self-updating badges, a tidy screenshot grid and claims checked against the code.
