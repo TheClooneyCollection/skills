@@ -30,6 +30,7 @@ class CheckSkills(unittest.TestCase):
         path = self.root/'skills'/(folder or name)
         path.mkdir(parents=True, exist_ok=True)
         (path/'SKILL.md').write_text(f'---\nname: {name}\ndescription: {description}\n---\n\nBody.\n')
+        (path/'README.md').write_text(f'# {name}\n')
 
     def save(self):
         for path, data in (('.claude-plugin/marketplace.json', self.claude), ('.codex-plugin/plugin.json', self.codex),
@@ -69,6 +70,10 @@ class CheckSkills(unittest.TestCase):
         self.assertEqual(self.problems(), ['skills/tiny-slice/SKILL.md: no description'])
         self.write_skill('tiny-slice', 'x' * 1025)
         self.assertEqual(self.problems(), ['skills/tiny-slice/SKILL.md: description is 1025 characters, over 1024'])
+
+    def test_readme_required(self):
+        (self.root/'skills/tiny-slice/README.md').unlink()
+        self.assertEqual(self.problems(), ['skills/tiny-slice: no README.md'])
 
     def test_absolute_home_paths_rejected(self):
         (self.root/'skills/tiny-slice/notes.md').write_text('See ~/notes and\nopen /Users/someone/file\n')

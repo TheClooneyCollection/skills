@@ -4,7 +4,7 @@
 
 It reports:
 
-- a skill folder without `SKILL.md` or frontmatter, a frontmatter `name` that differs from the folder, a name that is not lowercase-hyphenated or is over 64 characters, a missing description or one over 1024 characters;
+- a skill folder without `SKILL.md`, `README.md` or frontmatter, a frontmatter `name` that differs from the folder, a name that is not lowercase-hyphenated or is over 64 characters, a missing description or one over 1024 characters;
 - `/Users/...` or `/home/...` paths in skill files, which tie a skill to one machine;
 - a skill missing from, or extra in, the `skills` list of `.claude-plugin/marketplace.json` or the README table;
 - a `version` in the Claude manifest (Claude Code should track the commit);

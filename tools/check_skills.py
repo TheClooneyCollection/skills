@@ -62,6 +62,8 @@ def check(root=ROOT, tag=latest_tag):
         if not skill.is_file():
             problems.append(f'skills/{name}: no SKILL.md')
             continue
+        if not (root/'skills'/name/'README.md').is_file():
+            problems.append(f'skills/{name}: no README.md')
         fields = frontmatter(skill.read_text())
         if fields is None:
             problems.append(f'skills/{name}/SKILL.md: no frontmatter')
