@@ -1,5 +1,11 @@
 # Changelog
 
+## New projects get a release section
+
+`v0.16.0` · 2026-11-14 · Feature
+
+- The AGENTS.md template now has a `## Release` section (version files, checks, prep commit, title, notes, post-release steps) that the `release` skill reads.
+
 ## Release skill
 
 `v0.15.0` · 2026-11-14 · Feature
