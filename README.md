@@ -30,7 +30,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.
 - `polish-readme`: A README's first screen decides whether anyone reads on. This gives it one line per feature, self-updating badges, a tidy screenshot grid and claims checked against the code.
-- `release`: Releasing means a dozen small steps, and I would hate for me or an agent to ever forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups.
+- `release`: Releasing means a dozen small steps, and I would hate for me or an agent to ever forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups. This gives me the automation while keeping a framework and conventions for agents to follow, so releases stay intentional.
 - `tiny-slice`: Too many options at once? One small step, me driving.
 - `wrap-up`: Worried about losing the lessons a session taught? No more! This lists what to save and what is unfinished before I clear.
 
