@@ -12,6 +12,7 @@ Workflow skills for coding agents, installable as a Claude Code or Codex plugin,
 ## Skills
 
 - Each skill is `skills/<name>/SKILL.md` plus any supporting files. Use the `agent-docs` skill when writing or changing one.
+- Each skill folder also has a `README.md` for people browsing it: what the skill does, when to use it, what it needs, and its files. Short and plain; keep it in step with `SKILL.md`.
 - Skills must not depend on a particular machine: no absolute paths, no references to the author's dotfiles.
 - Adding, renaming or removing a skill: update the `skills` list in `.claude-plugin/marketplace.json` and the table in `README.md`. Codex and `npx skills` find skills under `skills/` on their own.
 - Claude Code tracks the commit, so leave `version` out of the Claude manifest. Codex caches the plugin by the `version` in `.codex-plugin/plugin.json`, which changes only at a release.
