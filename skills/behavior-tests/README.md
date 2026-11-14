@@ -2,7 +2,7 @@
 
 A way of writing tests that describe what the user does and sees, with dependencies injected as plain functions. Tests survive refactors, setup stays short, and coverage gets close to total cheaply.
 
-**Why:** Before, tests that checked how code worked inside broke every time it was restructured. This writes tests around what the user does and sees, so they fail only when something is really broken.
+**Why:** My tests kept breaking on refactors that changed nothing for users. These follow what the user does and sees, so they fail only on real breakage.
 
 **Use it:** when writing or reviewing tests, adding fakes, wiring dependency injection, or raising coverage. Works in any language.
 

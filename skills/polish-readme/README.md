@@ -2,7 +2,7 @@
 
 Polishes a project README's first screen and intro so it is accurate and quick to scan.
 
-**Why:** Before, READMEs drifted into vague claims and stale badges, and their first screen decides whether people keep reading. This makes it accurate and quick to scan: one line per feature, live badges, tidy screenshots.
+**Why:** A README's first screen decides whether anyone reads on, yet mine filled up with vague claims and stale badges. This makes it accurate and quick to scan.
 
 **Use it:** ask to polish, tidy or redo a README.
 
