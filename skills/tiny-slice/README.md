@@ -4,7 +4,7 @@ A focused pairing mode: you drive, the agent helps with one small step at a time
 
 A **slice** is the smallest step that leaves something you can check: one test going green, one fix, one answered question.
 
-**Why:** When I want to focus, the agent piles on options and next steps. This keeps us to one small step at a time, with me driving.
+**Why:** Before, when I wanted to focus, the agent piled on options and next steps. This keeps us to one small step at a time, with me driving.
 
 **Use it:** say "tiny slice", "super focused" or "one thing at a time", or push back when the agent offers too many options at once.
 

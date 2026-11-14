@@ -4,7 +4,7 @@ Audits and fixes stutter when streaming to Apple Vision Pro with Mac Virtual Dis
 
 The usual cause: Apple devices share one radio between your router's channel and AWDL, the peer-to-peer link MVD uses. When the two channels differ, the radio time-slices between them and the stream stutters. Picking a "clean" channel alone does not fix it.
 
-**Why:** Streaming to Vision Pro kept stuttering, and the cause hides in Wi-Fi settings spread across the Mac, the router and the PC. This checks them all and says what to fix.
+**Why:** Before, streaming to Vision Pro kept stuttering, and the cause hid in Wi-Fi settings spread across the Mac, the router and the PC. This checks them all and says what to fix.
 
 **Use it:** report MVD or ALVR stutter, lag or drops, ask which router channel or width to use for Vision Pro, or ask for your VR network to be checked.
 

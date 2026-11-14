@@ -2,7 +2,7 @@
 
 Cuts a release by hand: works out the version from the commits, prepares and tags it, publishes the GitHub release, then runs the repo's own post-release steps.
 
-**Why:** A release is a dozen small steps, and it is easy to miss one. This walks through them in order: version, tag, GitHub release, follow-ups.
+**Why:** Before, a release was a dozen small steps, and it was easy to miss one. This walks through them in order: version, tag, GitHub release, follow-ups.
 
 **Use it:** say "release", "cut a release" or "ship vX.Y.Z".
 

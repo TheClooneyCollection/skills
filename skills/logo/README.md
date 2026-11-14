@@ -2,7 +2,7 @@
 
 Designs a project logo with an image model and puts it at the top of the README.
 
-**Why:** Generated logos come out inconsistent across sizes and themes. This designs one with an image model, then builds a matching set that works on light and dark READMEs.
+**Why:** Before, generated logos came out inconsistent across sizes and themes. This designs one with an image model, then builds a matching set that works on light and dark READMEs.
 
 **Use it:** ask for a logo, icon or wordmark.
 

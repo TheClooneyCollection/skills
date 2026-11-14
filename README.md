@@ -22,17 +22,17 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 
 Each skill started as a problem I kept hitting in my own sessions. The second time I corrected an agent the same way, the correction became a skill:
 
-- `afk`: When I step away, the agent stops at its first question and waits. This keeps it working, decides what it safely can, and briefs me when I am back.
-- `agent-docs`: Skills and AGENTS.md files grow long, and the rules that matter get lost. This keeps them short, with only the lines that change what the agent does.
-- `agent-pool`: A big backlog is slow with one agent and messy with several. This puts one coordinator in charge of a pool, so agents work in parallel without stepping on each other.
-- `avp-mvd-alvr-stutter-resolver`: Streaming to Vision Pro kept stuttering, and the cause hides in Wi-Fi settings spread across the Mac, the router and the PC. This checks them all and says what to fix.
-- `behavior-tests`: Tests that check how code works inside break every time it is restructured. This writes tests around what the user does and sees, so they fail only when something is really broken.
-- `logo`: Generated logos come out inconsistent across sizes and themes. This designs one with an image model, then builds a matching set that works on light and dark READMEs.
-- `new-project-setup`: Every new repo meant setting up the same Git, docs and versioning conventions by hand. This ensures consistency across all of them.
-- `polish-readme`: A README's first screen decides whether people keep reading. This makes it accurate and quick to scan: one line per feature, live badges, tidy screenshots.
-- `release`: A release is a dozen small steps, and it is easy to miss one. This walks through them in order: version, tag, GitHub release, follow-ups.
-- `tiny-slice`: When I want to focus, the agent piles on options and next steps. This keeps us to one small step at a time, with me driving.
-- `wrap-up`: Clearing a session throws away what it learned. This lists what is worth saving and what is unfinished before I clear.
+- `afk`: Before, when I stepped away, the agent stopped at its first question and waited. This keeps it working, decides what it safely can, and briefs me when I am back.
+- `agent-docs`: Before, skills and AGENTS.md files grew long, and the rules that mattered got lost. This keeps them short, with only the lines that change what the agent does.
+- `agent-pool`: Before, a big backlog was slow with one agent and messy with several. This puts one coordinator in charge of a pool, so agents work in parallel without stepping on each other.
+- `avp-mvd-alvr-stutter-resolver`: Before, streaming to Vision Pro kept stuttering, and the cause hid in Wi-Fi settings spread across the Mac, the router and the PC. This checks them all and says what to fix.
+- `behavior-tests`: Before, tests that checked how code worked inside broke every time it was restructured. This writes tests around what the user does and sees, so they fail only when something is really broken.
+- `logo`: Before, generated logos came out inconsistent across sizes and themes. This designs one with an image model, then builds a matching set that works on light and dark READMEs.
+- `new-project-setup`: Before, every new repo meant setting up the same Git, docs and versioning conventions by hand. This ensures consistency across all of them.
+- `polish-readme`: Before, READMEs drifted into vague claims and stale badges, and their first screen decides whether people keep reading. This makes it accurate and quick to scan: one line per feature, live badges, tidy screenshots.
+- `release`: Before, a release was a dozen small steps, and it was easy to miss one. This walks through them in order: version, tag, GitHub release, follow-ups.
+- `tiny-slice`: Before, when I wanted to focus, the agent piled on options and next steps. This keeps us to one small step at a time, with me driving.
+- `wrap-up`: Before, clearing a session threw away what it had learned. This lists what is worth saving and what is unfinished before I clear.
 
 More on the thinking behind it: [AgentOS: The Agent Environment That Gets Smarter As You Build](https://blog.nicholas.clooney.io/posts/building-ai-agent-workflows-that-accumulate-context/) and [Wrap up, then clear](https://blog.nicholas.clooney.io/timeline/2026-11-12-shipped-wrap-up-skill/).
 
