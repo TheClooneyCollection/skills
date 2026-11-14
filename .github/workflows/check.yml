@@ -1,0 +1,26 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Skills and manifests
+        run: python3 tools/check_skills.py
+      - name: Changelog is current
+        run: python3 tools/build_changelog.py --check
+      - name: Tool tests
+        run: |
+          python3 tools/test_check_skills.py
+          python3 tools/test_build_changelog.py

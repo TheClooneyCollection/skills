@@ -1,1 +1,2 @@
 - [Changelog notes](changelog-notes/README.md): one note file per feat/fix commit.
+- [Checks](checks.md): what `tools/check_skills.py` and CI verify.
