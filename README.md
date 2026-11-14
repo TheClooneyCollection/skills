@@ -24,7 +24,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 
 - `afk`: I used to step away and come back to an agent stalled on its first question. Now it keeps going, decides what it safely can, and briefs me on return.
 - `agent-docs`: Skill and AGENTS.md had a lot what agents already knew. This trims those away to keep the lines that matter.
-- `agent-pool`: Disk-hungry projects used to eat my whole drive when every agent got its own copy. This runs a capped pool of agents in one worktree, with a coordinator handing out tasks and merging results.
+- `agent-pool`: Disk-hungry projects used to eat my whole drive when every agent got its own copy. This keeps the pool at a fixed size, and members can share one worktree because each owns its own files, with a coordinator handing out tasks and merging results.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
