@@ -24,6 +24,20 @@ Every agent session starts from zero. Without written-down workflows, each one r
 
 So I follow one rule: if I do the same sequence twice, I encode it. A skill holds the mechanical part, the exact steps and the gotchas found the hard way, so the agent arrives oriented and my attention goes to the parts that need thinking. My steering goes into them too: "one thing at a time" became `tiny-slice`, and the worry of losing lessons when I clear a session became `wrap-up`. The point is a setup that gets cheaper to work in the more it is used.
 
+What each skill fixes:
+
+- `afk`: When I step away, the agent stops at its first question and the work stalls until I am back.
+- `agent-docs`: Agent docs bloat with things the agent would do anyway, and the few lines that matter get lost.
+- `agent-pool`: One agent works through a big backlog slowly, and several agents with no one in charge collide on the same files.
+- `avp-mvd-alvr-stutter-resolver`: Vision Pro streams stuttered even on a clean Wi-Fi channel, and finding the real cause (AWDL hopping channels) took a long audit every time.
+- `behavior-tests`: Tests that mock internals break on every refactor and still miss the bugs users hit.
+- `logo`: Logo variants generated one by one drift apart, and image models leave flaws that only show on a dark background.
+- `new-project-setup`: Every new repo meant setting up the same Git, docs and versioning conventions by hand, a little differently each time.
+- `polish-readme`: A README's first screen decides whether people read on, and it fills up with vague claims and stale badges.
+- `release`: A release is a dozen small steps (version, tag, notes, follow-ups), and skipping one is easy.
+- `tiny-slice`: The agent piles on options and decisions when I only want the next step.
+- `wrap-up`: Clearing a session throws away what was learned in it, unless someone writes it down first.
+
 More on the thinking behind it: [AgentOS: The Agent Environment That Gets Smarter As You Build](https://blog.nicholas.clooney.io/posts/building-ai-agent-workflows-that-accumulate-context/) and [Wrap up, then clear](https://blog.nicholas.clooney.io/timeline/2026-11-12-shipped-wrap-up-skill/).
 
 ## Install

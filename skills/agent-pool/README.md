@@ -2,6 +2,8 @@
 
 Keeps a pool of sub agents busy in parallel. One coordinator splits the work, hands out tasks, merges results and commits; the members each work on one task at a time.
 
+**Why:** One agent works through a big backlog slowly, and several agents with no one in charge collide on the same files.
+
 **Use it:** ask to keep N agents running, spin up several agents on a body of work, or hand over a backlog that splits into independent parts.
 
 ## How it works

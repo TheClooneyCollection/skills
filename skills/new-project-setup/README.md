@@ -2,6 +2,8 @@
 
 Sets up a new repository with a ready skeleton: Git, agent instructions, a docs layout and versioning rules. It adds no language, framework or build tooling; those come from the project later.
 
+**Why:** Every new repo meant setting up the same Git, docs and versioning conventions by hand, a little differently each time.
+
 **Use it:** ask to start, create, scaffold or initialise a new project or repo.
 
 ## What it does

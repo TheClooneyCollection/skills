@@ -2,6 +2,8 @@
 
 Before you clear or end a session, the agent lists what is worth saving and what is unfinished, so nothing learned gets lost.
 
+**Why:** Clearing a session throws away what was learned in it, unless someone writes it down first.
+
 **Use it:** say you are about to clear, reset or end the session.
 
 ## What you get

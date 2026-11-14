@@ -2,6 +2,8 @@
 
 Designs a project logo with an image model and puts it at the top of the README.
 
+**Why:** Logo variants generated one by one drift apart, and image models leave flaws that only show on a dark background.
+
 **Use it:** ask for a logo, icon or wordmark.
 
 ## What it does

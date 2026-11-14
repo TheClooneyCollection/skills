@@ -2,6 +2,8 @@
 
 A way of writing tests that describe what the user does and sees, with dependencies injected as plain functions. Tests survive refactors, setup stays short, and coverage gets close to total cheaply.
 
+**Why:** Tests that mock internals break on every refactor and still miss the bugs users hit.
+
 **Use it:** when writing or reviewing tests, adding fakes, wiring dependency injection, or raising coverage. Works in any language.
 
 ## The ideas

@@ -2,6 +2,8 @@
 
 Polishes a project README's first screen and intro so it is accurate and quick to scan.
 
+**Why:** A README's first screen decides whether people read on, and it fills up with vague claims and stale badges.
+
 **Use it:** ask to polish, tidy or redo a README.
 
 ## What it does

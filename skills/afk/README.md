@@ -2,6 +2,8 @@
 
 Away mode for when you step away from the keyboard. The agent keeps working until your next message, then opens with a brief of what happened.
 
+**Why:** When I step away, the agent stops at its first question and the work stalls until I am back.
+
 **Use it:** say "afk", "brb" or that you are stepping away.
 
 ## What it does
