@@ -2,7 +2,7 @@
 
 A way of writing tests that describe what the user does and sees, with dependencies injected as plain functions. Tests survive refactors, setup stays short, and coverage gets close to total cheaply.
 
-**Why:** This is the way. My way.™ Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps.
+**Why:** This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 
 **Use it:** when writing or reviewing tests, adding fakes, wiring dependency injection, or raising coverage. Works in any language.
 

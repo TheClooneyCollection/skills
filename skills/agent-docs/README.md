@@ -2,7 +2,7 @@
 
 Rules for writing documents that agents read: skills, `AGENTS.md` and `CLAUDE.md`. The aim is short files where every line changes what the agent does.
 
-**Why:** Skill and AGENTS.md files kept growing until the important rules got buried. This trims them to the lines that change what the agent does.
+**Why:** Skill and AGENTS.md had a lot what agents already knew. This trims those away to keep the lines that matter.
 
 **Use it:** when creating or changing a skill, or editing an `AGENTS.md` or `CLAUDE.md`.
 

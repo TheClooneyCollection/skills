@@ -23,10 +23,10 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 Each skill started as a problem I kept hitting in my own sessions. The second time I corrected an agent the same way, the correction became a skill:
 
 - `afk`: I used to step away and come back to an agent stalled on its first question. Now it keeps going, decides what it safely can, and briefs me on return.
-- `agent-docs`: Skill and AGENTS.md files kept growing until the important rules got buried. This trims them to the lines that change what the agent does.
-- `agent-pool`: Too much work for one agent, too much chaos with several? One coordinator hands out tasks and merges results, so a pool works in parallel without collisions.
+- `agent-docs`: Skill and AGENTS.md had a lot what agents already knew. This trims those away to keep the lines that matter.
+- `agent-pool`: Disk-hungry projects used to eat my whole drive when every agent got its own copy. This runs a capped pool of agents in one worktree, with a coordinator handing out tasks and merging results.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
-- `behavior-tests`: This is the way. My way.™ Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps.
+- `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.
 - `polish-readme`: A README's first screen decides whether anyone reads on. This gives it one line per feature, self-updating badges, a tidy screenshot grid and claims checked against the code.
