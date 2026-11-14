@@ -20,11 +20,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 
 ## Why
 
-Every agent session starts from zero. Without written-down workflows, each one repeats the same archaeology: reading the repo to rediscover a convention, or asking me again how I like something done. That is slow, it costs tokens, and the corrections I make vanish when the session ends.
-
-So I follow one rule: if I do the same sequence twice, I encode it. A skill holds the mechanical part, the exact steps and the gotchas found the hard way, so the agent arrives oriented and my attention goes to the parts that need thinking. My steering goes into them too: "one thing at a time" became `tiny-slice`, and the worry of losing lessons when I clear a session became `wrap-up`. The point is a setup that gets cheaper to work in the more it is used.
-
-What each skill fixes:
+Each skill started as a problem I kept hitting in my own sessions. The second time I corrected an agent the same way, the correction became a skill:
 
 - `afk`: When I step away, the agent stops at its first question and the work stalls until I am back.
 - `agent-docs`: Agent docs bloat with things the agent would do anyway, and the few lines that matter get lost.
