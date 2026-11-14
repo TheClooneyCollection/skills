@@ -1,5 +1,12 @@
 # Changelog
 
+## Release skill
+
+`v0.15.0` · 2026-11-14 · Feature
+
+- New `release` skill: cut a release by hand from the repo's own `## Release` section in AGENTS.md, deriving the version from commits, tagging, publishing the GitHub release and running post-release steps.
+- Installed with the rest of the plugin; needs the GitHub CLI (`gh`).
+
 ## install as a Claude Code or Codex plugin, or with npx skills
 
 `v0.14.0` · 2026-11-14 · Feature

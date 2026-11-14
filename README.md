@@ -11,10 +11,11 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `logo` | Design a project logo with an image model and add it to the README. |
 | `new-project-setup` | Set up a new repo with Git, commit, docs and versioning conventions. |
 | `polish-readme` | Polish a README's first screen and intro. |
+| `release` | Cut a release by hand: version from commits, tag, GitHub release, post-release steps. |
 | `tiny-slice` | Focused pairing, one tiny slice at a time. |
 | `wrap-up` | Before clearing a session, report what to save and what is unfinished. |
 
-`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), and `logo` generates images with Codex. The rest have no dependencies.
+`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), `logo` generates images with Codex, and `release` publishes with the GitHub CLI (`gh`). The rest have no dependencies.
 
 ## Why
 

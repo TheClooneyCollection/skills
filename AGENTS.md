@@ -41,3 +41,14 @@ Areas grow with the project. Record a new decision as its own file there; when n
 Releases follow semantic versioning, `vMAJOR.MINOR.PATCH`, derived from conventional commits on the first-parent history of `main`: a `!` subject (`feat!: ...`, `fix(api)!: ...`) bumps MAJOR, a `feat` bumps MINOR, a `fix` bumps PATCH; other commit types do not change the version. Tag only when the user asks, with an annotated tag equal to the derived version: `git tag -a vX.Y.Z -m "vX.Y.Z"`.
 
 Every feat and fix commit adds its own changelog note file, then refreshes CHANGELOG.md: see [docs/development/changelog-notes/README.md](docs/development/changelog-notes/README.md).
+
+## Release
+
+Releases are cut by hand with the `release` skill.
+
+- Version files: `version` in `.codex-plugin/plugin.json`, without the `v`.
+- Checks: `python3 tools/check_skills.py`, `python3 tools/test_check_skills.py`, `python3 tools/test_build_changelog.py`, `python3 tools/build_changelog.py --check`, `claude plugin validate .`.
+- Prep commit: `chore: release vX.Y.Z`. The first release was `feat!: release v1.0.0`, to lift the derived version to 1.0.0.
+- Title: `skills vX.Y.Z`.
+- Notes: a short summary of what changed for users, grouped by skill.
+- After release: add a shipped timeline entry on the author's blog (github.com/NicholasClooney/blog.clooney.io, its `timeline-entry` skill), dated by the tag's commit time and linking the release.
