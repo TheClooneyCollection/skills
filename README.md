@@ -16,6 +16,14 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 
 `afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), and `logo` generates images with Codex. The rest have no dependencies.
 
+## Why
+
+Every agent session starts from zero. Without written-down workflows, each one repeats the same archaeology: reading the repo to rediscover a convention, or asking me again how I like something done. That is slow, it costs tokens, and the corrections I make vanish when the session ends.
+
+So I follow one rule: if I do the same sequence twice, I encode it. A skill holds the mechanical part, the exact steps and the gotchas found the hard way, so the agent arrives oriented and my attention goes to the parts that need thinking. My steering goes into them too: "one thing at a time" became `tiny-slice`, and the worry of losing lessons when I clear a session became `wrap-up`. The point is a setup that gets cheaper to work in the more it is used.
+
+More on the thinking behind it: [AgentOS: The Agent Environment That Gets Smarter As You Build](https://blog.nicholas.clooney.io/posts/building-ai-agent-workflows-that-accumulate-context/) and [Wrap up, then clear](https://blog.nicholas.clooney.io/timeline/2026-11-12-shipped-wrap-up-skill/).
+
 ## Install
 
 ### Claude Code
