@@ -1,7 +1,7 @@
 {
   "name": "clooney",
-  "version": "0.1.0",
-  "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos and session wrap-up",
+  "version": "1.0.0",
+  "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos, releases and session wrap-up",
   "author": {
     "name": "Nicholas Clooney"
   },

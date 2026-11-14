@@ -1,5 +1,13 @@
 # Changelog
 
+## First stable release
+
+`v1.0.0` · 2026-11-14 · Feature
+
+- The skills install on their own: as a Claude Code plugin (`/plugin marketplace add TheClooneyCollection/skills`), a Codex plugin (`codex plugin marketplace add TheClooneyCollection/skills`), with `npx skills add TheClooneyCollection/skills`, or by copying a folder.
+- Ten skills: `afk`, `agent-docs`, `agent-pool`, `behavior-tests`, `logo`, `new-project-setup`, `polish-readme`, `release`, `tiny-slice` and `wrap-up`.
+- Plugin and marketplace names (`clooney`, `clooney-skills`) are now stable.
+
 ## New projects get a release section
 
 `v0.16.0` · 2026-11-14 · Feature

@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "clooney",
-      "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos and session wrap-up",
+      "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos, releases and session wrap-up",
       "author": {
         "name": "Nicholas Clooney"
       },
