@@ -14,10 +14,15 @@ Workflow skills for coding agents, installable as a Claude Code or Codex plugin,
 - Each skill is `skills/<name>/SKILL.md` plus any supporting files. Use the `agent-docs` skill when writing or changing one.
 - Skills must not depend on a particular machine: no absolute paths, no references to the author's dotfiles.
 - Adding, renaming or removing a skill: update the `skills` list in `.claude-plugin/marketplace.json` and the table in `README.md`. Codex and `npx skills` find skills under `skills/` on their own.
-- After pushing a new skill: add a shipped timeline entry on the author's blog (as in [Release](#release)), dated by the skill commit's time and linking the skill folder.
 - Claude Code tracks the commit, so leave `version` out of the Claude manifest. Codex caches the plugin by the `version` in `.codex-plugin/plugin.json`, which changes only at a release.
 - Check before pushing: `python3 tools/check_skills.py` and `claude plugin validate .` (see [docs/development/checks.md](docs/development/checks.md)). For Codex, add the repo as a marketplace under a throwaway `CODEX_HOME` and run `codex plugin add clooney@clooney-skills`.
-- The author's dotfiles install these skills from `main` with `.bin/skill-manager update --source clooney`. A change is live there only after it is pushed and that update runs.
+
+## Author only
+
+Steps for the repo's author; contributors skip them.
+
+- After every push to `main`: update the dotfiles copy in the same task, without asking, as in `~/AGENTS.md` "Own skills". A change is live there only after that.
+- After pushing a new skill: add a shipped timeline entry on the blog (as in [Release](#release)), dated by the skill commit's time and linking the skill folder.
 
 ## Decisions
 
