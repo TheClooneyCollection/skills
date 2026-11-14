@@ -2,7 +2,7 @@
 
 Cuts a release by hand: works out the version from the commits, prepares and tags it, publishes the GitHub release, then runs the repo's own post-release steps.
 
-**Why:** Releasing meant a dozen small steps, and I would forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups.
+**Why:** Releasing means a dozen small steps, and I would hate for me or an agent to ever forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups.
 
 **Use it:** say "release", "cut a release" or "ship vX.Y.Z".
 

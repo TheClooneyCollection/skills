@@ -26,13 +26,13 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `agent-docs`: Skill and AGENTS.md files kept growing until the important rules got buried. This trims them to the lines that change what the agent does.
 - `agent-pool`: Too much work for one agent, too much chaos with several? One coordinator hands out tasks and merges results, so a pool works in parallel without collisions.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
-- `behavior-tests`: My tests kept breaking on refactors that changed nothing for users. These follow what the user does and sees, so they fail only on real breakage.
-- `logo`: Generated logos never matched across icon, wordmark and dark mode. This picks one image and builds the whole set from it.
+- `behavior-tests`: This is the way. My way.™ Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps.
+- `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.
-- `polish-readme`: A README's first screen decides whether anyone reads on, yet mine filled up with vague claims and stale badges. This makes it accurate and quick to scan.
-- `release`: Releasing meant a dozen small steps, and I would forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups.
+- `polish-readme`: A README's first screen decides whether anyone reads on. This gives it one line per feature, self-updating badges, a tidy screenshot grid and claims checked against the code.
+- `release`: Releasing means a dozen small steps, and I would hate for me or an agent to ever forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups.
 - `tiny-slice`: Too many options at once? One small step, me driving.
-- `wrap-up`: Clearing a session used to wipe out what it had learned. Before I clear, this lists what to save and what is unfinished.
+- `wrap-up`: Worried about losing the lessons a session taught? No more! This lists what to save and what is unfinished before I clear.
 
 More on the thinking behind it: [AgentOS: The Agent Environment That Gets Smarter As You Build](https://blog.nicholas.clooney.io/posts/building-ai-agent-workflows-that-accumulate-context/) and [Wrap up, then clear](https://blog.nicholas.clooney.io/timeline/2026-11-12-shipped-wrap-up-skill/).
 

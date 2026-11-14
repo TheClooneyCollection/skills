@@ -2,7 +2,7 @@
 
 Before you clear or end a session, the agent lists what is worth saving and what is unfinished, so nothing learned gets lost.
 
-**Why:** Clearing a session used to wipe out what it had learned. Before I clear, this lists what to save and what is unfinished.
+**Why:** Worried about losing the lessons a session taught? No more! This lists what to save and what is unfinished before I clear.
 
 **Use it:** say you are about to clear, reset or end the session.
 
