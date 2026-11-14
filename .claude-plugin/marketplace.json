@@ -24,6 +24,7 @@
         "./skills/afk",
         "./skills/agent-docs",
         "./skills/agent-pool",
+        "./skills/avp-mvd-alvr-stutter-resolver",
         "./skills/behavior-tests",
         "./skills/logo",
         "./skills/new-project-setup",

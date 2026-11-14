@@ -7,6 +7,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `afk` | Away mode: keep working, default and log decisions, brief the user on return. |
 | `agent-docs` | Write or edit documents agents read: skills, AGENTS.md, CLAUDE.md. |
 | `agent-pool` | Keep a pool of sub agents busy under one coordinator. |
+| `avp-mvd-alvr-stutter-resolver` | Audit and fix Vision Pro MVD and ALVR stutter: AWDL channel hopping, router, wired path, subnets. |
 | `behavior-tests` | Tests as the user's flow, dependencies injected as plain functions. |
 | `logo` | Design a project logo with an image model and add it to the README. |
 | `new-project-setup` | Set up a new repo with Git, commit, docs and versioning conventions. |
