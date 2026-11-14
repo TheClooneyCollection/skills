@@ -2,7 +2,7 @@
 
 Keeps a pool of sub agents busy in parallel. One coordinator splits the work, hands out tasks, merges results and commits; the members each work on one task at a time.
 
-**Why:** Disk-hungry projects used to eat my whole drive when every agent got its own copy. This keeps the pool at a fixed size, and members can share one worktree because each owns its own files, with a coordinator handing out tasks and merging results.
+**Why:** I had a pile of work that could run in parallel and wanted 5 to 10 agents on it at once, without them stepping on each other's toes. One coordinator hands out tasks from a queue and merges results, and each member owns its own files.
 
 **Use it:** ask to keep N agents running, spin up several agents on a body of work, or hand over a backlog that splits into independent parts.
 

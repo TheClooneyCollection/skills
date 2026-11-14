@@ -23,8 +23,8 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 Each skill started as a problem I kept hitting in my own sessions. The second time I corrected an agent the same way, the correction became a skill:
 
 - `afk`: I used to step away and come back to an agent stalled on its first question. Now it keeps going, decides what it safely can, and briefs me on return.
-- `agent-docs`: Skill and AGENTS.md had a lot what agents already knew. This trims those away to keep the lines that matter.
-- `agent-pool`: Disk-hungry projects used to eat my whole drive when every agent got its own copy. This keeps the pool at a fixed size, and members can share one worktree because each owns its own files, with a coordinator handing out tasks and merging results.
+- `agent-docs`: Skill and AGENTS.md nowadays have a lot of what agents already knew. This trims those away to keep the lines that matter.
+- `agent-pool`: I had a pile of work that could run in parallel and wanted 5 to 10 agents on it at once, without them stepping on each other's toes. One coordinator hands out tasks from a queue and merges results, and each member owns its own files.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
