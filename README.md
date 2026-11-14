@@ -1,6 +1,6 @@
 # skills
 
-Agent skills I use with Claude Code and Codex. Each skill is a directory under `skills/` with a `SKILL.md`.
+Workflow skills for coding agents. They work in Claude Code, Codex and any agent that reads [Agent Skills](https://agentskills.io) (`SKILL.md` folders).
 
 | Skill | What it does |
 | --- | --- |
@@ -14,14 +14,48 @@ Agent skills I use with Claude Code and Codex. Each skill is a directory under `
 | `tiny-slice` | Focused pairing, one tiny slice at a time. |
 | `wrap-up` | Before clearing a session, report what to save and what is unfinished. |
 
+`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), and `logo` generates images with Codex. The rest have no dependencies.
+
 ## Install
 
-Link or copy a skill directory into your agent's skills directory, for example:
+### Claude Code
+
+```
+/plugin marketplace add TheClooneyCollection/skills
+/plugin install clooney@clooney-skills
+```
+
+Skills are then available as `/clooney:tiny-slice` and so on. Update with `/plugin marketplace update clooney-skills`.
+
+### Codex
 
 ```sh
-ln -s "$PWD/skills/tiny-slice" ~/.claude/skills/tiny-slice
+codex plugin marketplace add TheClooneyCollection/skills
+codex plugin add clooney@clooney-skills
 ```
+
+Start a new session afterwards. Update with `codex plugin marketplace upgrade clooney-skills`.
+
+### Any agent, with the skills CLI
+
+```sh
+npx skills add TheClooneyCollection/skills                     # pick skills interactively
+npx skills add TheClooneyCollection/skills --skill tiny-slice  # one skill
+```
+
+### By hand
+
+Copy or link a folder from `skills/` into your agent's skills directory:
+
+```sh
+git clone https://github.com/TheClooneyCollection/skills
+ln -s "$PWD/skills/skills/tiny-slice" ~/.claude/skills/tiny-slice
+```
+
+## Contributing
+
+Issues and pull requests are welcome. Each skill is a folder under `skills/` with a `SKILL.md`; see [AGENTS.md](AGENTS.md) for the repo rules.
 
 ## License
 
-MIT
+[MIT](LICENSE)

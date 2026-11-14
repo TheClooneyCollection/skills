@@ -1,0 +1,20 @@
+{
+  "name": "clooney",
+  "version": "0.1.0",
+  "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos and session wrap-up",
+  "author": {
+    "name": "Nicholas Clooney"
+  },
+  "homepage": "https://github.com/TheClooneyCollection/skills",
+  "repository": "https://github.com/TheClooneyCollection/skills",
+  "license": "MIT",
+  "keywords": ["skills", "workflow", "agents", "testing", "docs"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Clooney Skills",
+    "shortDescription": "Workflow skills for coding agents",
+    "developerName": "Nicholas Clooney",
+    "category": "Coding",
+    "websiteURL": "https://github.com/TheClooneyCollection/skills"
+  }
+}

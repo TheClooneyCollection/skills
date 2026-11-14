@@ -1,0 +1,36 @@
+{
+  "name": "clooney-skills",
+  "owner": {
+    "name": "Nicholas Clooney",
+    "url": "https://github.com/TheClooneyCollection"
+  },
+  "metadata": {
+    "description": "Agent skills for Claude Code and Codex"
+  },
+  "plugins": [
+    {
+      "name": "clooney",
+      "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, logos and session wrap-up",
+      "author": {
+        "name": "Nicholas Clooney"
+      },
+      "homepage": "https://github.com/TheClooneyCollection/skills",
+      "repository": "https://github.com/TheClooneyCollection/skills",
+      "license": "MIT",
+      "keywords": ["skills", "workflow", "agents", "testing", "docs"],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/afk",
+        "./skills/agent-docs",
+        "./skills/agent-pool",
+        "./skills/behavior-tests",
+        "./skills/logo",
+        "./skills/new-project-setup",
+        "./skills/polish-readme",
+        "./skills/tiny-slice",
+        "./skills/wrap-up"
+      ]
+    }
+  ]
+}
