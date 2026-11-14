@@ -42,6 +42,10 @@ def load_json(root, path, problems):
     return None
 
 
+def parse(version):
+    return tuple(int(part) for part in version.split('.'))
+
+
 def latest_tag(root):
     result = subprocess.run(['git', 'tag', '--list', 'v*', '--sort=-v:refname'],
                             cwd=root, capture_output=True, text=True)
@@ -104,8 +108,9 @@ def check(root=ROOT, tag=latest_tag):
         if not SEMVER.match(version):
             problems.append(f'.codex-plugin/plugin.json: version {version!r} is not MAJOR.MINOR.PATCH')
         released = tag(root)
-        if released and f'v{version}' != released:
-            problems.append(f'.codex-plugin/plugin.json: version {version} does not match the latest tag {released}')
+        # Not older than the latest tag: a release bumps it before tagging.
+        if released and SEMVER.match(version) and parse(version) < parse(released[1:]):
+            problems.append(f'.codex-plugin/plugin.json: version {version} is older than the latest tag {released}')
 
     if codex_market:
         names = [p.get('name') for p in codex_market.get('plugins', [])]

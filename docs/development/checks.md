@@ -9,7 +9,7 @@ It reports:
 - a skill missing from, or extra in, the `skills` list of `.claude-plugin/marketplace.json` or the README table;
 - a `version` in the Claude manifest (Claude Code should track the commit);
 - plugin or marketplace names that differ between the Claude and Codex manifests;
-- a Codex `version` that is not `MAJOR.MINOR.PATCH`, or that differs from the latest `v*` tag.
+- a Codex `version` that is not `MAJOR.MINOR.PATCH`, or that is older than the latest `v*` tag (a release bumps it before tagging).
 
 The tests are in `tools/test_check_skills.py`; add a case there with each new rule.
 

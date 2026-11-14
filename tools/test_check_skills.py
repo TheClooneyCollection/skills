@@ -80,10 +80,11 @@ class CheckSkills(unittest.TestCase):
         self.assertEqual(self.problems(), [
             '.claude-plugin/marketplace.json: leave version out so Claude Code tracks the commit'])
 
-    def test_codex_version_follows_latest_tag(self):
+    def test_codex_version_not_older_than_latest_tag(self):
         self.assertEqual(self.problems(tag=lambda root: 'v1.0.0'), [])
-        self.assertEqual(self.problems(tag=lambda root: 'v1.1.0'), [
-            '.codex-plugin/plugin.json: version 1.0.0 does not match the latest tag v1.1.0'])
+        self.assertEqual(self.problems(tag=lambda root: 'v0.9.0'), [])
+        self.assertEqual(self.problems(tag=lambda root: 'v1.0.10'), [
+            '.codex-plugin/plugin.json: version 1.0.0 is older than the latest tag v1.0.10'])
 
     def test_codex_version_is_semver(self):
         self.codex['version'] = 'local'
