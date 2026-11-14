@@ -29,7 +29,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 - `illustrate-post`: I wanted to see the best work from both Claude and an image model before picking a post's images. This has Claude draw the precise diagrams while an image model tries a few consistent styles on every image, all on one page, so I pick per image and mix freely.
-- `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image you picked.
+- `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image I picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.
 - `polish-readme`: A README's first screen decides whether anyone reads on. This gives it one line per feature, self-updating badges, a tidy screenshot grid and claims checked against the code.
 - `release`: Releasing means a dozen small steps, and I would hate for me or an agent to ever forget one. Now the agent runs them in order: version, tag, GitHub release, follow-ups. This gives me the automation while keeping a framework and conventions for agents to follow, so releases stay intentional.
