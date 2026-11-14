@@ -54,7 +54,7 @@ ln -s "$PWD/skills/skills/tiny-slice" ~/.claude/skills/tiny-slice
 
 ## Contributing
 
-Issues and pull requests are welcome. Each skill is a folder under `skills/` with a `SKILL.md`; see [AGENTS.md](AGENTS.md) for the repo rules.
+Issues and pull requests are welcome. Each skill is a folder under `skills/` with a `SKILL.md`. Start with the [docs](docs/README.md); [AGENTS.md](AGENTS.md) lists the conventions for skills, commits and releases.
 
 ## License
 
