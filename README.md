@@ -22,17 +22,17 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 
 Each skill started as a problem I kept hitting in my own sessions. The second time I corrected an agent the same way, the correction became a skill:
 
-- `afk`: When I step away, the agent stops at its first question and the work stalls until I am back.
-- `agent-docs`: Agent docs bloat with things the agent would do anyway, and the few lines that matter get lost.
-- `agent-pool`: One agent works through a big backlog slowly, and several agents with no one in charge collide on the same files.
-- `avp-mvd-alvr-stutter-resolver`: Vision Pro streams stuttered even on a clean Wi-Fi channel, and finding the real cause (AWDL hopping channels) took a long audit every time.
-- `behavior-tests`: Tests that mock internals break on every refactor and still miss the bugs users hit.
-- `logo`: Logo variants generated one by one drift apart, and image models leave flaws that only show on a dark background.
-- `new-project-setup`: Every new repo meant setting up the same Git, docs and versioning conventions by hand, a little differently each time.
-- `polish-readme`: A README's first screen decides whether people read on, and it fills up with vague claims and stale badges.
-- `release`: A release is a dozen small steps (version, tag, notes, follow-ups), and skipping one is easy.
-- `tiny-slice`: The agent piles on options and decisions when I only want the next step.
-- `wrap-up`: Clearing a session throws away what was learned in it, unless someone writes it down first.
+- `afk`: When I step away, the agent stops at its first question and waits. This keeps it working, decides what it safely can, and briefs me when I am back.
+- `agent-docs`: Skills and AGENTS.md files grow long, and the rules that matter get lost. This keeps them short, with only the lines that change what the agent does.
+- `agent-pool`: A big backlog is slow with one agent and messy with several. This puts one coordinator in charge of a pool, so agents work in parallel without stepping on each other.
+- `avp-mvd-alvr-stutter-resolver`: Streaming to Vision Pro kept stuttering, and the cause hides in Wi-Fi settings spread across the Mac, the router and the PC. This checks them all and says what to fix.
+- `behavior-tests`: Tests that check how code works inside break every time it is restructured. This writes tests around what the user does and sees, so they fail only when something is really broken.
+- `logo`: Generated logos come out inconsistent across sizes and themes. This designs one with an image model, then builds a matching set that works on light and dark READMEs.
+- `new-project-setup`: Every new repo meant setting up the same Git, docs and versioning conventions by hand. This ensures consistency across all of them.
+- `polish-readme`: A README's first screen decides whether people keep reading. This makes it accurate and quick to scan: one line per feature, live badges, tidy screenshots.
+- `release`: A release is a dozen small steps, and it is easy to miss one. This walks through them in order: version, tag, GitHub release, follow-ups.
+- `tiny-slice`: When I want to focus, the agent piles on options and next steps. This keeps us to one small step at a time, with me driving.
+- `wrap-up`: Clearing a session throws away what it learned. This lists what is worth saving and what is unfinished before I clear.
 
 More on the thinking behind it: [AgentOS: The Agent Environment That Gets Smarter As You Build](https://blog.nicholas.clooney.io/posts/building-ai-agent-workflows-that-accumulate-context/) and [Wrap up, then clear](https://blog.nicholas.clooney.io/timeline/2026-11-12-shipped-wrap-up-skill/).
 
