@@ -18,7 +18,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `tiny-slice` | Focused pairing, one tiny slice at a time. |
 | `wrap-up` | Before clearing a session, report what to save and what is unfinished. |
 
-`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), `logo` and `illustrate-post` generate images with Codex, and `release` publishes with the GitHub CLI (`gh`). `design-lab` uses Python 3, Tailscale and headless Chrome. The rest have no dependencies.
+`afk` and `agent-pool` are written for agents talking through [tmux-agents](https://github.com/TheClooneyCollection/tmux-agents), `logo` and `illustrate-post` generate images with Codex, and `release` publishes with the GitHub CLI (`gh`). `design-lab` uses Python 3 and headless Chrome, with optional Tailscale for phone review. The rest have no dependencies.
 
 ## Why
 

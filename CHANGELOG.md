@@ -1,5 +1,12 @@
 # Changelog
 
+## Review design labs locally without Tailscale
+
+`v1.4.0` · 2026-11-15 · Feature
+
+- Use the loopback URL on the same machine, or optionally share over a tailnet for phone review.
+- Keep the server on 127.0.0.1; public tunnels and binding to 0.0.0.0 are excluded from the workflow.
+
 ## Keep hidden files and directory listings out of the design lab
 
 `v1.3.1` · 2026-11-15 · Fix

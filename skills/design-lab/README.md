@@ -6,7 +6,7 @@ Explore visual directions in a private design lab: mockups, image rounds and a p
 
 **Use it:** before implementation, when comparing visual directions, reviewing a revision round or choosing finalists.
 
-**Needs:** Python 3, Tailscale for private sharing, and headless Chrome for screenshots.
+**Needs:** Python 3 and headless Chrome for screenshots. Tailscale is optional for phone review; without it, review on the same machine at 127.0.0.1.
 
 ## Files
 
