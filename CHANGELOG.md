@@ -1,5 +1,12 @@
 # Changelog
 
+## Use the catch-up format when returning from away mode
+
+`v1.8.0` · 2026-11-15 · Feature
+
+- Turn the away log into a catch-up brief, including defaulted decisions and their reasons in the current state.
+- Bring parked work into the pending section and ask for a decision only when needed.
+
 ## Add concise catch-up briefs
 
 `v1.7.0` · 2026-11-15 · Feature
