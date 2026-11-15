@@ -1,5 +1,12 @@
 # Changelog
 
+## Keep hidden files and directory listings out of the design lab
+
+`v1.3.1` · 2026-11-15 · Fix
+
+- Return 404 for dot-prefixed request path segments and directories without index.html, while keeping visual files available without caching on loopback.
+- Add offline HTTP tests and include them in release checks.
+
 ## Add a private design lab workflow
 
 `v1.3.0` · 2026-11-15 · Feature

@@ -14,3 +14,5 @@ It reports:
 The tests are in `tools/test_check_skills.py`; add a case there with each new rule.
 
 `claude plugin validate .` checks the Claude manifest against Claude Code's own rules. CI does not install Claude Code, so run it locally when the manifest changes.
+
+`python3 tools/test_serve_lab.py` checks the design-lab server offline with a temporary directory and a loopback server on an ephemeral port: visual files and indexes load, dot-prefixed path segments and directory listings return 404, and responses disable caching.

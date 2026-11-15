@@ -55,7 +55,7 @@ Every feat and fix commit adds its own changelog note file, then refreshes CHANG
 Releases are cut by hand with the `release` skill.
 
 - Version files: `version` in `.codex-plugin/plugin.json`, without the `v`.
-- Checks: `python3 tools/check_skills.py`, `python3 tools/test_check_skills.py`, `python3 tools/test_build_changelog.py`, `python3 tools/build_changelog.py --check`, `claude plugin validate .`.
+- Checks: `python3 tools/check_skills.py`, `python3 tools/test_check_skills.py`, `python3 tools/test_serve_lab.py`, `python3 tools/test_build_changelog.py`, `python3 tools/build_changelog.py --check`, `claude plugin validate .`.
 - Prep commit: `chore: release vX.Y.Z`. The first release was `feat!: release v1.0.0`, to lift the derived version to 1.0.0.
 - Title: `skills vX.Y.Z`.
 - Notes: a short summary of what changed for users, grouped by skill.
