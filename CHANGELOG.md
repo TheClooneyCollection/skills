@@ -1,5 +1,12 @@
 # Changelog
 
+## Add a private design lab workflow
+
+`v1.3.0` · 2026-11-15 · Feature
+
+- Compare visual directions, mockups and image rounds through one phone-friendly index before implementation.
+- Include a gallery guide, sample index and no-store local server.
+
 ## Illustrate a post with image variants
 
 `v1.2.0` · 2026-11-14 · Feature
