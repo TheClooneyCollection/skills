@@ -9,7 +9,7 @@ title: "Short user-facing title"
 ---
 
 - What changed, in terms of visible behaviour and where to find it.
-- Say plainly what is still missing or incomplete.
+- Say plainly what is still missing or incomplete in the behaviour. Not repo state: no "TBD", pending decisions or reviews.
 ```
 
 The `subject` matches the commit subject exactly. The frontmatter holds exactly these two JSON-quoted strings; the body is `- ` items with two-space continuation lines.
