@@ -10,6 +10,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `avp-mvd-alvr-stutter-resolver` | Audit and fix Vision Pro MVD and ALVR stutter: AWDL channel hopping, router, wired path, subnets. |
 | `behavior-tests` | Tests as the user's flow, dependencies injected as plain functions. |
 | `design-lab` | Compare mockups and image rounds in a private, phone-friendly lab before implementation. |
+| `engineering-standards` | Build and review app architecture, boundaries, dependencies and testable state. |
 | `illustrate-post` | Illustrate a post or doc with image variants from several models, picked from one gallery. |
 | `logo` | Design a project logo with an image model and add it to the README. |
 | `new-project-setup` | Set up a new repo with Git, commit, docs and versioning conventions. |
@@ -30,6 +31,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
 - `design-lab`: With how easy it is to try things with AI agents, I like to experiment with designs. This puts everything together in one place that I can open from my phone: every round, every verdict and the before versions, so I can compare, pick and come back later without anything getting lost in chat.
+- `engineering-standards`: TBD
 - `illustrate-post`: I wanted to see the best work from both Claude and an image model before picking a post's images. This has Claude draw the precise diagrams while an image model tries a few consistent styles on every image, all on one page, so I pick per image and mix freely.
 - `logo`: This aligns the icon, wordmark and dark-mode versions by building them all from the one image I picked.
 - `new-project-setup`: Setting up Git, docs and versioning by hand for every new repo left each one slightly different. Now they all start the same.

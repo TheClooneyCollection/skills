@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "clooney",
-      "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, project setup, README polish, design labs, post illustrations, logos, releases and session wrap-up",
+      "description": "Workflow skills: away mode, focused pairing, agent pools, agent docs, behavior tests, engineering standards, project setup, README polish, design labs, post illustrations, logos, releases and session wrap-up",
       "author": {
         "name": "Nicholas Clooney"
       },
@@ -27,6 +27,7 @@
         "./skills/avp-mvd-alvr-stutter-resolver",
         "./skills/behavior-tests",
         "./skills/design-lab",
+        "./skills/engineering-standards",
         "./skills/illustrate-post",
         "./skills/logo",
         "./skills/new-project-setup",

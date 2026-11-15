@@ -1,5 +1,12 @@
 # Changelog
 
+## Add layered engineering standards for app code
+
+`v1.5.0` · 2026-11-15 · Feature
+
+- Keep five core rules in the main skill and load structure, screen-state and test references when needed.
+- Provide 22 principles with inline Swift examples, encouraging canned values at unit boundaries and separating fixture provenance from invalid test inputs.
+
 ## Dark design-lab screenshots no longer depend on the Mac's appearance
 
 `v1.4.1` · 2026-11-15 · Fix
