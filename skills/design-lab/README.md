@@ -2,7 +2,7 @@
 
 Explore visual directions in a private design lab: mockups, image rounds and a phone-friendly index, ending with a decision in the project plan.
 
-**Why:** TBD
+**Why:** With how easy it is to try things with AI agents, I like to experiment with designs. This puts everything together in one place that I can open from my phone: every round, every verdict and the before versions, so I can compare, pick and come back later without anything getting lost in chat.
 
 **Use it:** before implementation, when comparing visual directions, reviewing a revision round or choosing finalists.
 
