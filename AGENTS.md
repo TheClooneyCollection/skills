@@ -15,6 +15,7 @@ Workflow skills for coding agents, installable as a Claude Code or Codex plugin,
 - Each skill folder also has a `README.md` for people browsing it: what the skill does, a one-line **Why** (the problem it fixes, also listed in the root README's Why section), when to use it, what it needs, and its files. Short and plain; keep it in step with `SKILL.md`.
 - Write the Why line from the skill's real backstory, in first person: the problem in the user's words, then what the skill does. Find it in the commit that added the skill and the session that prompted it, or ask the user; never infer it.
 - Skills must not depend on a particular machine: no absolute paths, no references to the author's dotfiles.
+- A skill drafted in another project (especially a private one) gets a privacy pass before its push: no names, task details or paths from that project.
 - Adding, renaming or removing a skill: update the `skills` list in `.claude-plugin/marketplace.json` and the table in `README.md`. Codex and `npx skills` find skills under `skills/` on their own.
 - Claude Code tracks the commit, so leave `version` out of the Claude manifest. Codex caches the plugin by the `version` in `.codex-plugin/plugin.json`, which changes only at a release.
 - Check before pushing: `python3 tools/check_skills.py` and `claude plugin validate .` (see [docs/development/checks.md](docs/development/checks.md)). For Codex, add the repo as a marketplace under a throwaway `CODEX_HOME` and run `codex plugin add clooney@clooney-skills`.
@@ -23,7 +24,7 @@ Workflow skills for coding agents, installable as a Claude Code or Codex plugin,
 
 Steps for the repo's author; contributors skip them.
 
-- After every push to `main`: update the dotfiles copy in the same task, without asking, as in `~/AGENTS.md` "Own skills". A change is live there only after that.
+- After every push to `main`: update the dotfiles copy in the same task, without asking, as in `~/AGENTS.md` "Own skills"; when the dotfiles chain is open, request it from that chain's secondary instead. A change is live there only after that.
 - After pushing a new skill: add a shipped timeline entry on the blog (as in [Release](#release)), dated by the skill commit's time and linking the skill folder.
 
 ## Decisions
@@ -42,7 +43,7 @@ Areas grow with the project. Record a new decision as its own file there; when n
 
 - Conventional commits: `feat(scope): ...`, `fix(scope): ...`, `docs`, `chore`, `test`, `refactor`. Imperative subject, lower case after the colon. The scope is the skill name when a commit touches one skill.
 - Keep `main` linear. Work on a branch, rebase it onto `main`, and land it with `git merge --ff-only`.
-- Push only when the user asks. After a significant change or several commits since the last push, ask the user whether to push.
+- Push only when the user asks. After a significant change or several commits since the last push, ask the user whether to push. A change waiting for a push OK stays on its own branch; merge it to `main` only once its push is approved, so one push never carries another unapproved change.
 
 ## Versioning
 
