@@ -1,5 +1,12 @@
 # Changelog
 
+## Add concise catch-up briefs
+
+`v1.7.0` · 2026-11-15 · Feature
+
+- Summarise changes since the user's last message as landed work, pending or blocked work, and a decision question only when needed.
+- Omit empty parts, tool narration and messages the user can already read.
+
 ## Keep skill entry points to the always-needed core
 
 `v1.6.0` · 2026-11-15 · Feature

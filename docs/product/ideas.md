@@ -4,6 +4,7 @@ Every idea the user raises, newest first. Status is `new`, `planned`, `done` or 
 
 | Date | Idea | Status | Outcome |
 |---|---|---|---|
+| 2026-11-15 | A concise catch-up since the user’s last message, with landed work, pending work and a decision only when needed | done | Added [catch-up](../../skills/catch-up/README.md), requested via the EDControlRoom chain |
 | 2026-11-15 | Layered engineering standards with principles and Swift examples | done | Added [engineering-standards](../../skills/engineering-standards/README.md) from a draft written in a private project; the user settled its open questions |
 | 2026-11-15 | A private design lab for comparing mockups and image rounds before implementation | done | Added [design-lab](../../skills/design-lab/README.md) |
 | 2026-11-15 | A lightweight per-project task system (Markdown files per task) as the source of goals for the command center | dropped | Folded into Agent Fleet Command: missions and logs live in its central SQLite database, with an optional Markdown export later |

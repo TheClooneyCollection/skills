@@ -9,6 +9,7 @@ Workflow skills for coding agents. They work in Claude Code, Codex and any agent
 | `agent-pool` | Keep a pool of sub agents busy under one coordinator. |
 | `avp-mvd-alvr-stutter-resolver` | Audit and fix Vision Pro MVD and ALVR stutter: AWDL channel hopping, router, wired path, subnets. |
 | `behavior-tests` | Tests as the user's flow, dependencies injected as plain functions. |
+| `catch-up` | Brief what changed since your last message: landed work, pending work and a decision when needed. |
 | `design-lab` | Compare mockups and image rounds in a private, phone-friendly lab before implementation. |
 | `engineering-standards` | Build and review app architecture, boundaries, dependencies and testable state. |
 | `illustrate-post` | Illustrate a post or doc with image variants from several models, picked from one gallery. |
@@ -30,6 +31,7 @@ Each skill started as a problem I kept hitting in my own sessions. The second ti
 - `agent-pool`: I had a pile of work that could run in parallel and wanted 5 to 10 agents on it at once, without them stepping on each other's toes. One coordinator hands out tasks from a queue and merges results, and each member owns its own files.
 - `avp-mvd-alvr-stutter-resolver`: My Vision Pro stream stuttered for no obvious reason, and the cause was spread across Wi-Fi settings on the Mac, router and PC. This audits all of them and lists the fixes.
 - `behavior-tests`: This is the way.™ My way. Tests written as the user's flow, dependencies injected as plain functions, test factories that crash on anything not provided, fakes as plain data, and an injected clock instead of sleeps. The result: tests that survive any refactor and near-total coverage, cheaply.
+- `catch-up`: I come back from a break or a flood of agent notices and ask "catch me up" or "cmu". I want only what changed since my last message, concise and in a fixed shape: what landed, what is pending or blocked, and a decision only if one is needed. Long recaps bury the decision and repeat messages I can already read.
 - `design-lab`: With how easy it is to try things with AI agents, I like to experiment with designs. This puts everything together in one place that I can open from my phone: every round, every verdict and the before versions, so I can compare, pick and come back later without anything getting lost in chat.
 - `engineering-standards`: I want every app I build to start from the same foundation: simple objects, strong single responsibility, strong boundaries, full dependency injection, and state and logic you can test. Writing it down once means agents build to that standard by default, instead of me re-explaining it on every project.
 - `illustrate-post`: I wanted to see the best work from both Claude and an image model before picking a post's images. This has Claude draw the precise diagrams while an image model tries a few consistent styles on every image, all on one page, so I pick per image and mix freely.
