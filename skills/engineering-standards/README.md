@@ -2,7 +2,7 @@
 
 Build and review app code with standards for simple objects, single responsibility, strong boundaries, dependency injection and testable state. Each rule starts with a principle and keeps Swift as one example.
 
-**Why:** TBD
+**Why:** I want every app I build to start from the same foundation: simple objects, strong single responsibility, strong boundaries, full dependency injection, and state and logic you can test. Writing it down once means agents build to that standard by default, instead of me re-explaining it on every project.
 
 **Use it:** when designing app architecture, wiring dependencies, writing view models or view states, mapping network data and errors, or reviewing code against these standards.
 
