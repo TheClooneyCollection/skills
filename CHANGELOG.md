@@ -1,5 +1,12 @@
 # Changelog
 
+## Keep skill entry points to the always-needed core
+
+`v1.6.0` · 2026-11-15 · Feature
+
+- Put only the minimal core needed on every invocation in SKILL.md.
+- Move other material to reference files linked from the main file at the step that needs them.
+
 ## Add layered engineering standards for app code
 
 `v1.5.0` · 2026-11-15 · Feature
