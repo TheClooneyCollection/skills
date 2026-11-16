@@ -1,5 +1,13 @@
 # Changelog
 
+## Give boundary values and code groups clear meaning
+
+`v1.11.0` · 2026-11-16 · Feature
+
+- Choose request encoding without mechanically duplicating domain types; a format-shaped wire value is an optional, deliberate choice.
+- Name cohesive boundary payloads and group properties, methods and function stages by responsibility, with Swift ordering guidance.
+- Verify final wire output, including explicit null, rather than internal conversion steps.
+
 ## Choose what survives a session clear
 
 `v1.10.0` · 2026-11-16 · Feature
