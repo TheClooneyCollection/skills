@@ -1,5 +1,12 @@
 # Changelog
 
+## Copy gallery item IDs for phone feedback
+
+`v1.9.0` · 2026-11-16 · Feature
+
+- Design-lab galleries now require short, stable item IDs and Copy ID buttons, with text selection when clipboard access is unavailable.
+- Each round's landing page lists every item with its ID, making it easy to identify choices from a phone.
+
 ## Use the catch-up format when returning from away mode
 
 `v1.8.0` · 2026-11-15 · Feature
