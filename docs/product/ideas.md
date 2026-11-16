@@ -4,6 +4,7 @@ Every idea the user raises, newest first. Status is `new`, `planned`, `done` or 
 
 | Date | Idea | Status | Outcome |
 |---|---|---|---|
+| 2026-11-16 | Preserve necessary diagnostics across error boundaries and treat intentional cancellation as lifecycle control | done | Integrated into the existing typed-error rule in [engineering-standards](../../skills/engineering-standards/references/structure.md) |
 | 2026-11-16 | Serialization types with independent responsibilities, meaningful boundary payloads and semantic code grouping | done | Added principles and Swift forms to [engineering-standards](../../skills/engineering-standards/README.md), with final wire-output checks |
 | 2026-11-16 | Numbered wrap-up choices and a temporary local handoff across session clears | done | Added explicit save/continue/drop choices and the uncommitted `HANDOFF.md` lifecycle to [wrap-up](../../skills/wrap-up/README.md) |
 | 2026-11-16 | Stable gallery item IDs with Copy ID for feedback from a phone | done | Added item IDs, clipboard fallback and a complete round listing to [design-lab galleries](../../skills/design-lab/references/gallery.md) |

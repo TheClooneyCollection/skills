@@ -1,5 +1,12 @@
 # Changelog
 
+## Keep error diagnostics and cancellation intent
+
+`v1.12.0` · 2026-11-16 · Feature
+
+- Typed error boundaries retain necessary diagnostics through optional boundary logging or error metadata.
+- Intentional cancellation is lifecycle control rather than a request failure requiring user action; no universal cancellation case or logging implementation is prescribed.
+
 ## Give boundary values and code groups clear meaning
 
 `v1.11.0` · 2026-11-16 · Feature
