@@ -4,6 +4,7 @@ Every idea the user raises, newest first. Status is `new`, `planned`, `done` or 
 
 | Date | Idea | Status | Outcome |
 |---|---|---|---|
+| 2026-11-16 | Numbered wrap-up choices and a temporary local handoff across session clears | done | Added explicit save/continue/drop choices and the uncommitted `HANDOFF.md` lifecycle to [wrap-up](../../skills/wrap-up/README.md) |
 | 2026-11-16 | Stable gallery item IDs with Copy ID for feedback from a phone | done | Added item IDs, clipboard fallback and a complete round listing to [design-lab galleries](../../skills/design-lab/references/gallery.md) |
 | 2026-11-15 | A concise catch-up since the user’s last message, with landed work, pending work and a decision only when needed | done | Added [catch-up](../../skills/catch-up/README.md), requested via the EDControlRoom chain |
 | 2026-11-15 | Layered engineering standards with principles and Swift examples | done | Added [engineering-standards](../../skills/engineering-standards/README.md) from a draft written in a private project; the user settled its open questions |
