@@ -15,7 +15,7 @@ Make nested structure visible while keeping complete short expressions compact.
     }
     ```
 
-    **Arguments and parameters.** In a multiline call or declaration, put each argument or parameter on its own line with trailing commas. Initializer parameters have no blank lines between groups, as in rule 15.
+    **Arguments and parameters.** In a multiline call or declaration, put each argument or parameter on its own line with trailing commas. Trailing commas in argument and parameter lists need Swift 6.1 or later; on older toolchains, omit the final comma. Initializer parameters have no blank lines between groups, as in rule 15.
 
     **Nested calls.** If an inner call spans lines, expand its enclosing call too. Give each opening argument boundary and closing parenthesis its own nesting level and line; never combine closing parentheses as `))`.
 
