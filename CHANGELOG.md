@@ -1,5 +1,16 @@
 # Changelog
 
+## Explicit argument labels with clear call-site meaning
+
+`v1.14.0` · 2026-11-17 · Feature
+
+- Engineering standards now require explicit external labels for every function and initializer parameter, including the first, with names that reveal domain meaning at calls.
+- Required external signatures remain intact; Swift closure inputs use named boundary payloads when positional arguments hide their roles.
+
+## add resume from HANDOFF.md
+
+`v1.13.0` · 2026-11-17 · Feature
+
 ## Keep error diagnostics and cancellation intent
 
 `v1.12.0` · 2026-11-16 · Feature

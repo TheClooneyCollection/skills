@@ -4,6 +4,7 @@ Every idea the user raises, newest first. Status is `new`, `planned`, `done` or 
 
 | Date | Idea | Status | Outcome |
 |---|---|---|---|
+| 2026-11-17 | Always use explicit external argument labels, including the first parameter, and name functions and parameters together so calls retain domain meaning | done | Extended rule 14 in [engineering-standards](../../skills/engineering-standards/references/structure.md), with required external signatures and closure function types distinguished |
 | 2026-11-16 | Preserve necessary diagnostics across error boundaries and treat intentional cancellation as lifecycle control | done | Integrated into the existing typed-error rule in [engineering-standards](../../skills/engineering-standards/references/structure.md) |
 | 2026-11-16 | Serialization types with independent responsibilities, meaningful boundary payloads and semantic code grouping | done | Added principles and Swift forms to [engineering-standards](../../skills/engineering-standards/README.md), with final wire-output checks |
 | 2026-11-16 | Numbered wrap-up choices and a temporary local handoff across session clears | done | Added explicit save/continue/drop choices and the uncommitted `HANDOFF.md` lifecycle to [wrap-up](../../skills/wrap-up/README.md) |
