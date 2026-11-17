@@ -15,9 +15,12 @@
 - Engineering standards now require explicit external labels for every function and initializer parameter, including the first, with names that reveal domain meaning at calls.
 - Required external signatures remain intact; Swift closure inputs use named boundary payloads when positional arguments hide their roles.
 
-## add resume from HANDOFF.md
+## Resume from the handoff after a clear
 
 `v1.13.0` · 2026-11-17 · Feature
+
+- `wrap-up` now resumes after a clear: it reads `HANDOFF.md`, runs its Resume steps and reports the next actions, without re-briefing other agents or restoring roles unless asked.
+- `HANDOFF.md` gains a fixed Resume steps section listing the commands the next session runs first.
 
 ## Keep error diagnostics and cancellation intent
 
