@@ -4,6 +4,7 @@ Every idea the user raises, newest first. Status is `new`, `planned`, `done` or 
 
 | Date | Idea | Status | Outcome |
 |---|---|---|---|
+| 2026-11-17 | Apply the approved generic code-style conventions to engineering standards | done | Added declaration-line ordering, precise semantic spacing, cohesive operation values, enum projections and multiline layout to [engineering-standards](../../skills/engineering-standards/README.md); project tooling stays local |
 | 2026-11-17 | Always use explicit external argument labels, including the first parameter, and name functions and parameters together so calls retain domain meaning | done | Extended rule 14 in [engineering-standards](../../skills/engineering-standards/references/structure.md), with required external signatures and closure function types distinguished |
 | 2026-11-16 | Preserve necessary diagnostics across error boundaries and treat intentional cancellation as lifecycle control | done | Integrated into the existing typed-error rule in [engineering-standards](../../skills/engineering-standards/references/structure.md) |
 | 2026-11-16 | Serialization types with independent responsibilities, meaningful boundary payloads and semantic code grouping | done | Added principles and Swift forms to [engineering-standards](../../skills/engineering-standards/README.md), with final wire-output checks |

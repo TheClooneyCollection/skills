@@ -1,5 +1,13 @@
 # Changelog
 
+## Semantic code layout and cohesive operation values
+
+`v1.15.0` · 2026-11-17 · Feature
+
+- Engineering standards now sort properties by complete declaration-line length within semantic groups, with precise spacing for stages, initializers and test flows.
+- Cohesive operation values preserve narrow dependency injection; named enum projections keep extraction separate from behavioural pattern matching.
+- Swift examples now specify multiline conditions, argument lists and nested calls, while preserving explicit argument labels and required external signatures.
+
 ## Explicit argument labels with clear call-site meaning
 
 `v1.14.0` · 2026-11-17 · Feature
